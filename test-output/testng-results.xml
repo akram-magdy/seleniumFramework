@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9342" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9342" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:49Z">
+      <class name="tests.ChangeCurrencyTest">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StartDriver" is-config="true" duration-ms="6653" started-at="2020-05-30T15:21:33Z" finished-at="2020-05-30T15:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@e25b2fe]" name="UserCanChangeCurrency" duration-ms="1788" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanChangeCurrency -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-05-30T15:21:41Z" finished-at="2020-05-30T15:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanChangeCurrency status=SUCCESS method=ChangeCurrencyTest.UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@e25b2fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="userCanSearchForProduct()[pri:2, instance:tests.ChangeCurrencyTest@e25b2fe]" name="userCanSearchForProduct" duration-ms="7534" started-at="2020-05-30T15:21:41Z" finished-at="2020-05-30T15:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSearchForProduct -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-05-30T15:21:49Z" finished-at="2020-05-30T15:21:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanSearchForProduct status=SUCCESS method=ChangeCurrencyTest.userCanSearchForProduct()[pri:2, instance:tests.ChangeCurrencyTest@e25b2fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StopDriver" is-config="true" duration-ms="700" started-at="2020-05-30T15:21:49Z" finished-at="2020-05-30T15:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.ChangeCurrencyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
