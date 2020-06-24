@@ -4,6 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -35,8 +38,20 @@ public class TestBase{
 		else if (browserName.equalsIgnoreCase("ie")) {
 			String Pathie = System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe";
 			System.setProperty("webdriver.ie.driverr", Pathie);
-			
 		}
+			
+			
+			else if (browserName.equalsIgnoreCase("phantomJS")) {
+				
+				DesiredCapabilities caps =new DesiredCapabilities();
+				caps.setJavascriptEnabled(true);
+				caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+						System.getProperty("user.dir")+"\\drivers\\phantomjs.exe");
+				String[] phantomJsArgs = {"--web-security=no","--ignore-ssl-error=yes"};
+				caps.setCapability(PhantomJSDriverService.PHANTOMJS_GHOSTDRIVER_CLI_ARGS, phantomJsArgs);
+				driver = new PhantomJSDriver();
+		}
+		
 		String Pathchrome = System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", Pathchrome);
 		driver = new ChromeDriver();

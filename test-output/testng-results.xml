@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9342" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:49Z">
+  <suite name="Default suite" duration-ms="8914" started-at="2020-06-22T11:22:08Z" finished-at="2020-06-22T11:22:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9342" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:49Z">
+    <test name="Default test" duration-ms="8914" started-at="2020-06-22T11:22:08Z" finished-at="2020-06-22T11:22:17Z">
       <class name="tests.ChangeCurrencyTest">
-        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StartDriver" is-config="true" duration-ms="6653" started-at="2020-05-30T15:21:33Z" finished-at="2020-05-30T15:21:39Z">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StartDriver" is-config="true" duration-ms="9425" started-at="2020-06-22T11:21:59Z" finished-at="2020-06-22T11:22:08Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@e25b2fe]" name="UserCanChangeCurrency" duration-ms="1788" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:41Z">
+        <test-method status="PASS" signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@e25b2fe]" name="UserCanChangeCurrency" duration-ms="1805" started-at="2020-06-22T11:22:08Z" finished-at="2020-06-22T11:22:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanChangeCurrency -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-05-30T15:21:41Z" finished-at="2020-05-30T15:21:41Z">
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="2" started-at="2020-06-22T11:22:10Z" finished-at="2020-06-22T11:22:10Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="userCanSearchForProduct()[pri:2, instance:tests.ChangeCurrencyTest@e25b2fe]" name="userCanSearchForProduct" duration-ms="7534" started-at="2020-05-30T15:21:41Z" finished-at="2020-05-30T15:21:49Z">
+        <test-method status="PASS" signature="userCanSearchForProduct()[pri:2, instance:tests.ChangeCurrencyTest@e25b2fe]" name="userCanSearchForProduct" duration-ms="7086" started-at="2020-06-22T11:22:10Z" finished-at="2020-06-22T11:22:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanSearchForProduct -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-05-30T15:21:49Z" finished-at="2020-05-30T15:21:49Z">
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-06-22T11:22:17Z" finished-at="2020-06-22T11:22:17Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StopDriver" is-config="true" duration-ms="700" started-at="2020-05-30T15:21:49Z" finished-at="2020-05-30T15:21:49Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StopDriver" is-config="true" duration-ms="686" started-at="2020-06-22T11:22:17Z" finished-at="2020-06-22T11:22:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
