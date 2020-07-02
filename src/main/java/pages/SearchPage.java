@@ -22,8 +22,8 @@ public class SearchPage extends PageBase {
 	List<WebElement> ProductList ;
 
 	@FindBy(linkText="Apple MacBook Pro 13-inch")
-	WebElement productTitle ;
-
+	WebElement productTitle;  
+	
 	public void ProductSearch(String productName) 
 	{
 		setTextElementText(searchTextBox, productName);

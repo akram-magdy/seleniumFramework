@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -28,11 +29,13 @@ public class TestBase{
 		if (browserName.equalsIgnoreCase("chrome")) {
 			String Pathchrome = System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", Pathchrome);
-		}
+			driver = new ChromeDriver();
+			}
 		else if (browserName.equalsIgnoreCase("firefox")) {
 			
 			String PathFireFox = System.getProperty("user.dir")+"\\drivers\\geckodriver.exe";
 			System.setProperty("webdriver.gecko.driverr", PathFireFox);
+			driver = new FirefoxDriver();
 		}
 		
 		else if (browserName.equalsIgnoreCase("ie")) {
@@ -52,9 +55,6 @@ public class TestBase{
 				driver = new PhantomJSDriver();
 		}
 		
-		String Pathchrome = System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
-		System.setProperty("webdriver.chrome.driver", Pathchrome);
-		driver = new ChromeDriver();
 		driver.navigate().to("https://demo.nopcommerce.com/");
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
