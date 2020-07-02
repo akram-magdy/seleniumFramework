@@ -3,18 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.ChangeCurrencyTest">
+      <class name="tests.AddProductToWishListTest">
         <methods>
-          <include name="setUpClass"/>
+          <include name="UserCanSearchForProductsWithAutoSuggest"/>
           <include name="StopDriver"/>
-          <include name="userCanSearchForProduct"/>
-          <include name="UserCanChangeCurrency"/>
-          <include name="feature"/>
           <include name="screenshotOnFailure"/>
-          <include name="tearDownClass"/>
+          <include name="UserCanAddProductToWishlist"/>
+          <include name="UserCanRemoveProductFromCart"/>
           <include name="StartDriver"/>
         </methods>
-      </class> <!-- tests.ChangeCurrencyTest -->
+      </class> <!-- tests.AddProductToWishListTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
