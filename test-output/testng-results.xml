@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9342" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:49Z">
+  <suite name="Default suite" duration-ms="11998" started-at="2020-06-25T13:46:40Z" finished-at="2020-06-25T13:46:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9342" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:49Z">
-      <class name="tests.ChangeCurrencyTest">
-        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StartDriver" is-config="true" duration-ms="6653" started-at="2020-05-30T15:21:33Z" finished-at="2020-05-30T15:21:39Z">
+    <test name="Default test" duration-ms="11998" started-at="2020-06-25T13:46:40Z" finished-at="2020-06-25T13:46:52Z">
+      <class name="tests.AddProductToWishListTest">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.AddProductToWishListTest@146ba0ac]" name="StartDriver" is-config="true" duration-ms="6406" started-at="2020-06-25T13:46:34Z" finished-at="2020-06-25T13:46:40Z">
           <params>
             <param index="0">
               <value>
@@ -18,41 +18,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@e25b2fe]" name="UserCanChangeCurrency" duration-ms="1788" started-at="2020-05-30T15:21:39Z" finished-at="2020-05-30T15:21:41Z">
+        <test-method status="PASS" signature="UserCanSearchForProductsWithAutoSuggest()[pri:1, instance:tests.AddProductToWishListTest@146ba0ac]" name="UserCanSearchForProductsWithAutoSuggest" duration-ms="9272" started-at="2020-06-25T13:46:40Z" finished-at="2020-06-25T13:46:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanChangeCurrency -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-05-30T15:21:41Z" finished-at="2020-05-30T15:21:41Z">
+        </test-method> <!-- UserCanSearchForProductsWithAutoSuggest -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddProductToWishListTest@146ba0ac]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-06-25T13:46:49Z" finished-at="2020-06-25T13:46:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanChangeCurrency status=SUCCESS method=ChangeCurrencyTest.UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@e25b2fe] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanSearchForProductsWithAutoSuggest status=SUCCESS method=AddProductToWishListTest.UserCanSearchForProductsWithAutoSuggest()[pri:1, instance:tests.AddProductToWishListTest@146ba0ac] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="userCanSearchForProduct()[pri:2, instance:tests.ChangeCurrencyTest@e25b2fe]" name="userCanSearchForProduct" duration-ms="7534" started-at="2020-05-30T15:21:41Z" finished-at="2020-05-30T15:21:49Z">
+        <test-method status="PASS" signature="UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductToWishListTest@146ba0ac]" name="UserCanAddProductToWishlist" duration-ms="1336" started-at="2020-06-25T13:46:50Z" finished-at="2020-06-25T13:46:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userCanSearchForProduct -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-05-30T15:21:49Z" finished-at="2020-05-30T15:21:49Z">
+        </test-method> <!-- UserCanAddProductToWishlist -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddProductToWishListTest@146ba0ac]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-06-25T13:46:51Z" finished-at="2020-06-25T13:46:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCanSearchForProduct status=SUCCESS method=ChangeCurrencyTest.userCanSearchForProduct()[pri:2, instance:tests.ChangeCurrencyTest@e25b2fe] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanAddProductToWishlist status=SUCCESS method=AddProductToWishListTest.UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductToWishListTest@146ba0ac] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.ChangeCurrencyTest@e25b2fe]" name="StopDriver" is-config="true" duration-ms="700" started-at="2020-05-30T15:21:49Z" finished-at="2020-05-30T15:21:49Z">
+        <test-method status="PASS" signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToWishListTest@146ba0ac]" name="UserCanRemoveProductFromCart" duration-ms="1366" started-at="2020-06-25T13:46:51Z" finished-at="2020-06-25T13:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRemoveProductFromCart -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddProductToWishListTest@146ba0ac]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-06-25T13:46:52Z" finished-at="2020-06-25T13:46:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRemoveProductFromCart status=SUCCESS method=AddProductToWishListTest.UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToWishListTest@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:tests.AddProductToWishListTest@146ba0ac]" name="StopDriver" is-config="true" duration-ms="1514" started-at="2020-06-25T13:46:52Z" finished-at="2020-06-25T13:46:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- tests.ChangeCurrencyTest -->
+      </class> <!-- tests.AddProductToWishListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
