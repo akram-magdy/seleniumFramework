@@ -14,6 +14,7 @@ public class ProductDetailsPage extends PageBase {
 	public WebElement productNamebreadCrumb;
 	
 	@FindBy(xpath="//*[@id=\"product-details-form\"]/div/div[1]/div[2]/div[10]/div[3]/input")
+	              
 	WebElement emailFriendBtn ;
 	
 	
@@ -25,6 +26,12 @@ public class ProductDetailsPage extends PageBase {
 	
 	@FindBy(id="add-to-wishlist-button-4")
 	WebElement addToWishListBtn ;
+	
+	@FindBy(xpath="//*[@id=\"product-details-form\"]/div[2]/div[1]/div[2]/div[10]/div[2]/input")
+	WebElement addToCompareBtn ;
+	
+	@FindBy(xpath=" //*[@id=\"product-details-form\"]/div[2]/div[1]/div[2]/div[9]/div[2]/input")
+	WebElement addToCompareBtn2 ;
 	
 	public void openSendEmail()
 	{
@@ -40,5 +47,15 @@ public class ProductDetailsPage extends PageBase {
 	{
 		clickButton(addToWishListBtn);
 	}
+	
+	public void AddProductToCompare()
+	{
+		clickButton(addToCompareBtn);
+	}
+	public void AddProductToCompare2()
+	{
+		clickButton(addToCompareBtn2);
+	}
+	
 
 }
